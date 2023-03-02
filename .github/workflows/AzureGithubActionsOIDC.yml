@@ -23,7 +23,7 @@ jobs:
       - name: sub
         run: |
           
-          az account set -s "29f16c50-5298-4040-8e21-6647279bd16e"
+          az account set --subscription "Azure Subscription - bogdantrifan"
   
       - name: 'Run az commands'
         run: |
