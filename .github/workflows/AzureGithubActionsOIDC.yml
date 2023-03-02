@@ -19,6 +19,11 @@ jobs:
           subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
           allow-no-subscriptions: true
           enable-AzPSSession: true
+          
+      - name: sub
+        run: |
+          
+          az account set -s "29f16c50-5298-4040-8e21-6647279bd16e"
   
       - name: 'Run az commands'
         run: |
